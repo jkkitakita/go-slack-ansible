@@ -1,0 +1,19 @@
+---
+host_and_repos:
+  - host: 'hoge'
+    repo: 'hogehoge'
+  - host: 'fuga'
+    repo: 'fugafuga'
+
+task_tags:
+  - 'deploy'
+  - 'env'
+  - 'filebeat'
+  - 'telegraf'
+  - 'nginx'
+  - 'restart-nginx'
+  - 'unicorn'
+  - 'restart-unicorn'
+  - 'build'
+  - 'daemon'
+  - 'crontab'
