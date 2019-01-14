@@ -28,3 +28,10 @@ or
 
 make build && ./bin/go-slack-ansible
 ```
+
+## Demo
+
+![go-slack-ansible](https://user-images.githubusercontent.com/11452854/51100891-82d9b480-181b-11e9-90ad-55efa5502dd8.gif)
+
+## Ref. Qiita
+https://qiita.com/jkkitakita/items/0d6065f14fb81d1a3226
