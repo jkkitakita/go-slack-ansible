@@ -51,7 +51,7 @@ func listRemoteBranches(repo string) []*github.Branch {
 
 	ctx := context.Background()
 	ts := oauth2.StaticTokenSource(
-		&oauth2.Token{AccessToken: os.Getenv("ANSIBLE_ROOT_PATH")},
+		&oauth2.Token{AccessToken: os.Getenv("GITHUB_ACCESS_TOKEN")},
 	)
 	tc := oauth2.NewClient(ctx, ts)
 
